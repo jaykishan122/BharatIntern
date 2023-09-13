@@ -1,0 +1,56 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3e1f1f;
+}
+
+#local-video-container, #remote-video-container {
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #c98a8a;
+    background-color: #03093e;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+button {
+    display: block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #eb2b09;
+    color: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0888dd;
+}
+
+
+#start-button, #stop-button {
+    margin: 10px auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    #local-video-container, #remote-video-container {
+        width: 90%;
+    }
+}
+
+
